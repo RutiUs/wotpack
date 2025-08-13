@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+    <script>
+        const theme = localStorage.getItem('theme');
+            if(theme) {
+                document.body.classList.add(theme);
+            }
+    </script>
+    <div class="body-wrapper">
+        <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="../index.html">
+                    <img class="logo__link" src="../images/svgicons/logo.svg" alt="Wotpack.ru - игры, новости, гайды, прохождения">
+                </a>
+                <nav class="menu">
+                    <button class="burger__menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__item-link" href="#">
+                                Новости
+                            </a>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Рубрики
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Посты
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Записи
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__item-link" href="#">
+                                Игры
+                            </a>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Atomic Heart
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Cyberpunk 2077
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Genshin impact
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__item-link" href="#">
+                                Билды
+                            </a>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Обновление
+                                    </a>
+                                </li>
+                                 <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Гайды
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="agreement.html">
+                                        Пользовательское соглашение
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="policy.html">
+                                        Политика конфиденциальности
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="feedback.html">
+                                        Обратная связь
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="hero.html">
+                                        Другое
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__item-link" href="#">
+                                Интересное
+                            </a>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Донаты
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="#">
+                                        Гайды
+                                    </a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a class="dropdown__item-link" href="hero.html">
+                                        Другое
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__items">
+                    <div class="header__item">
+                        <button class="theme-mode" id="night-theme-btn">
+                            <svg class="theme-mode__svg sun" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_35_13377)">
+                                        <path d="M9.98964 0.658284C9.81306 0.661045 9.64478 0.733751 9.52175 0.860447C9.39871 0.987143 9.33097 1.15748 9.33339 1.33407V3.33407C9.33214 3.42241 9.34846 3.51012 9.3814 3.59209C9.41434 3.67407 9.46325 3.74869 9.52528 3.8116C9.58731 3.87451 9.66123 3.92447 9.74273 3.95857C9.82424 3.99267 9.91171 4.01023 10.0001 4.01023C10.0884 4.01023 10.1759 3.99267 10.2574 3.95857C10.3389 3.92447 10.4128 3.87451 10.4748 3.8116C10.5369 3.74869 10.5858 3.67407 10.6187 3.59209C10.6517 3.51012 10.668 3.42241 10.6667 3.33407V1.33407C10.6679 1.24487 10.6513 1.15634 10.6176 1.07371C10.584 0.991088 10.5342 0.916045 10.471 0.853031C10.4079 0.790017 10.3328 0.740313 10.2501 0.706861C10.1674 0.67341 10.0788 0.656891 9.98964 0.658284ZM3.86464 3.19995C3.73213 3.20024 3.60271 3.24002 3.4929 3.31419C3.3831 3.38837 3.29788 3.49358 3.24814 3.6164C3.1984 3.73922 3.18638 3.87408 3.21362 4.00376C3.24087 4.13344 3.30614 4.25206 3.4011 4.34448L4.81516 5.75854C4.87659 5.82253 4.95017 5.87361 5.03159 5.9088C5.11301 5.94398 5.20063 5.96257 5.28932 5.96348C5.37801 5.96438 5.466 5.94757 5.54811 5.91405C5.63023 5.88052 5.70483 5.83095 5.76755 5.76823C5.83027 5.70551 5.87984 5.63091 5.91337 5.54879C5.9469 5.46667 5.9637 5.37869 5.9628 5.29C5.9619 5.20131 5.94331 5.11368 5.90812 5.03226C5.87293 4.95085 5.82185 4.87727 5.75787 4.81584L4.34381 3.40177C4.28153 3.33775 4.20702 3.2869 4.12471 3.25223C4.04239 3.21756 3.95395 3.19978 3.86464 3.19995ZM16.1146 3.19995C15.9414 3.20511 15.7771 3.2775 15.6563 3.40177L14.2422 4.81584C14.1783 4.87727 14.1272 4.95085 14.092 5.03226C14.0568 5.11368 14.0382 5.2013 14.0373 5.29C14.0364 5.37869 14.0532 5.46667 14.0867 5.54879C14.1203 5.6309 14.1698 5.70551 14.2326 5.76822C14.2953 5.83094 14.3699 5.88052 14.452 5.91404C14.5341 5.94757 14.6221 5.96437 14.7108 5.96347C14.7995 5.96257 14.8871 5.94398 14.9685 5.90879C15.0499 5.87361 15.1235 5.82253 15.185 5.75854L16.599 4.34448C16.6953 4.25084 16.7611 4.13028 16.7878 3.9986C16.8144 3.86692 16.8007 3.73026 16.7483 3.60654C16.6959 3.48282 16.6074 3.3778 16.4944 3.30524C16.3813 3.23269 16.2489 3.19599 16.1146 3.19995ZM10.0001 5.33407C8.76238 5.33407 7.57539 5.82573 6.70022 6.7009C5.82505 7.57607 5.33339 8.76306 5.33339 10.0007C5.33339 11.2384 5.82505 12.4254 6.70022 13.3006C7.57539 14.1757 8.76238 14.6674 10.0001 14.6674C11.2377 14.6674 12.4247 14.1757 13.2999 13.3006C14.1751 12.4254 14.6667 11.2384 14.6667 10.0007C14.6667 8.76306 14.1751 7.57607 13.2999 6.7009C12.4247 5.82573 11.2377 5.33407 10.0001 5.33407ZM1.33339 9.33407C1.24505 9.33282 1.15734 9.34914 1.07536 9.38208C0.993381 9.41502 0.918767 9.46393 0.855854 9.52596C0.79294 9.58799 0.742983 9.6619 0.708885 9.74341C0.674786 9.82491 0.657227 9.91238 0.657227 10.0007C0.657227 10.0891 0.674786 10.1766 0.708885 10.2581C0.742983 10.3396 0.79294 10.4135 0.855854 10.4755C0.918767 10.5375 0.993381 10.5864 1.07536 10.6194C1.15734 10.6523 1.24505 10.6686 1.33339 10.6674H3.33339C3.42173 10.6686 3.50944 10.6523 3.59142 10.6194C3.6734 10.5864 3.74801 10.5375 3.81092 10.4755C3.87384 10.4135 3.92379 10.3396 3.95789 10.2581C3.99199 10.1766 4.00955 10.0891 4.00955 10.0007C4.00955 9.91238 3.99199 9.82491 3.95789 9.74341C3.92379 9.6619 3.87384 9.58799 3.81092 9.52596C3.74801 9.46393 3.6734 9.41502 3.59142 9.38208C3.50944 9.34914 3.42173 9.33282 3.33339 9.33407H1.33339ZM16.6667 9.33407C16.5784 9.33282 16.4907 9.34914 16.4087 9.38208C16.3267 9.41502 16.2521 9.46393 16.1892 9.52596C16.1263 9.58799 16.0763 9.6619 16.0422 9.74341C16.0081 9.82491 15.9906 9.91238 15.9906 10.0007C15.9906 10.0891 16.0081 10.1766 16.0422 10.2581C16.0763 10.3396 16.1263 10.4135 16.1892 10.4755C16.2521 10.5375 16.3267 10.5864 16.4087 10.6194C16.4907 10.6523 16.5784 10.6686 16.6667 10.6674H18.6667C18.7551 10.6686 18.8428 10.6523 18.9248 10.6194C19.0067 10.5864 19.0813 10.5375 19.1443 10.4755C19.2072 10.4135 19.2571 10.3396 19.2912 10.2581C19.3253 10.1766 19.3429 10.0891 19.3429 10.0007C19.3429 9.91238 19.3253 9.82491 19.2912 9.74341C19.2571 9.6619 19.2072 9.58799 19.1443 9.52596C19.0813 9.46393 19.0067 9.41502 18.9248 9.38208C18.8428 9.34914 18.7551 9.33282 18.6667 9.33407H16.6667ZM5.27349 14.0411C5.10029 14.0463 4.93591 14.1186 4.81516 14.2429L3.4011 15.657C3.33712 15.7184 3.28604 15.792 3.25085 15.8734C3.21566 15.9548 3.19707 16.0425 3.19617 16.1311C3.19527 16.2198 3.21207 16.3078 3.2456 16.3899C3.27912 16.4721 3.3287 16.5467 3.39142 16.6094C3.45413 16.6721 3.52874 16.7217 3.61085 16.7552C3.69297 16.7887 3.78095 16.8055 3.86964 16.8046C3.95834 16.8037 4.04596 16.7851 4.12738 16.7499C4.2088 16.7148 4.28237 16.6637 4.34381 16.5997L5.75787 15.1856C5.8542 15.092 5.92 14.9714 5.94664 14.8397C5.97328 14.7081 5.95952 14.5714 5.90716 14.4477C5.8548 14.324 5.76628 14.2189 5.65321 14.1464C5.54013 14.0738 5.40778 14.0371 5.27349 14.0411ZM14.7071 14.0411C14.5745 14.0411 14.4449 14.0807 14.3349 14.1548C14.2249 14.2289 14.1394 14.3341 14.0895 14.4569C14.0396 14.5798 14.0275 14.7148 14.0547 14.8446C14.0819 14.9744 14.1472 15.0931 14.2422 15.1856L15.6563 16.5997C15.7177 16.6637 15.7913 16.7148 15.8727 16.7499C15.9542 16.7851 16.0418 16.8037 16.1305 16.8046C16.2192 16.8055 16.3071 16.7887 16.3893 16.7552C16.4714 16.7217 16.546 16.6721 16.6087 16.6094C16.6714 16.5466 16.721 16.472 16.7545 16.3899C16.788 16.3078 16.8048 16.2198 16.8039 16.1311C16.803 16.0424 16.7844 15.9548 16.7493 15.8734C16.7141 15.792 16.663 15.7184 16.599 15.657L15.185 14.2429C15.1228 14.1791 15.0485 14.1283 14.9665 14.0936C14.8844 14.059 14.7962 14.0411 14.7071 14.0411ZM9.98964 15.9916C9.81306 15.9944 9.64478 16.0671 9.52175 16.1938C9.39871 16.3205 9.33097 16.4908 9.33339 16.6674V18.6674C9.33214 18.7557 9.34846 18.8434 9.3814 18.9254C9.41434 19.0074 9.46325 19.082 9.52528 19.1449C9.58731 19.2078 9.66123 19.2578 9.74273 19.2919C9.82424 19.326 9.91171 19.3436 10.0001 19.3436C10.0884 19.3436 10.1759 19.326 10.2574 19.2919C10.3389 19.2578 10.4128 19.2078 10.4748 19.1449C10.5369 19.082 10.5858 19.0074 10.6187 18.9254C10.6517 18.8434 10.668 18.7557 10.6667 18.6674V16.6674C10.6679 16.5782 10.6513 16.4897 10.6176 16.407C10.584 16.3244 10.5342 16.2494 10.471 16.1864C10.4079 16.1234 10.3328 16.0736 10.2501 16.0402C10.1674 16.0067 10.0788 15.9902 9.98964 15.9916Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_35_13377">
+                                        <rect width="20" height="20" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <svg class="theme-mode__svg circle" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="10" cy="10" r="10" fill="white" />
+                                </svg>
+                                <svg class="theme-mode__svg moon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.8328 10.3767C15.7502 10.2939 15.6446 10.2379 15.5296 10.2162C15.4147 10.1944 15.2959 10.2079 15.1888 10.2549C13.868 10.8308 12.4043 10.9955 10.9885 10.7274C9.57276 10.4594 8.27057 9.77116 7.25169 8.75235C6.23281 7.73354 5.5445 6.43145 5.27646 5.01578C5.00843 3.60012 5.17311 2.13655 5.74903 0.815827C5.79668 0.708663 5.81072 0.589577 5.78932 0.47427C5.76791 0.358963 5.71206 0.25285 5.62913 0.169923C5.54619 0.0869959 5.44007 0.0311486 5.32476 0.00974452C5.20944 -0.0116595 5.09035 0.00238484 4.98318 0.050026C3.74202 0.594055 2.65243 1.4328 1.80901 2.49345C0.965593 3.55409 0.393844 4.80457 0.143406 6.1363C-0.107032 7.46803 -0.0285871 8.84076 0.371929 10.1353C0.772445 11.4298 1.48293 12.607 2.44168 13.5647C3.40044 14.5224 4.57848 15.2316 5.87354 15.6307C7.16859 16.0298 8.5415 16.1068 9.87306 15.855C11.2046 15.6031 12.4546 15.0301 13.5144 14.1856C14.5742 13.3411 15.4119 12.2507 15.9546 11.0091C15.9991 10.9035 16.0112 10.787 15.9895 10.6745C15.9678 10.5619 15.9133 10.4583 15.8328 10.3767Z" fill="white" />
+                                </svg>
+                        </button>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item">
+                            <search class="header__item-search">
+                                <form class="header__form">
+                                    <input class="header__form-input" type="search">
+                                    <button class="header__form-btn" type="submit">
+                                        <img class="search__icon" src="../images/svgicons/search.svg" alt="search">
+                                    </button>
+                                </form>
+                            </search>
+                            <div class="header__form-search">
+                                <input class="header__form-search-input search" type="text" placeholder="Поиск">
+                                    <button class="header__form-btn header__form-search-btn">
+                                        <img class="search__icon" src="../images/svgicons/search.svg" alt="search">
+                                        <img class="close__icon" src="../images/svgicons/close.svg" alt="close">
+                                    </button>
+                                <div class="result-box"></div>
+                            </div>
+                        </div>
+                    </div>
+		        </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="agreement policy">
+            <div class="container section">
+                <div class="agreement__inner policy__inner">
+                    <div class="agreement__content policy__content">
+                        <div class="policy__descr">
+                            <h1 class="agreement__title">
+                                Политика конфиденциальности
+                            </h1>
+                            <p class="agreement__text policy__text">
+                                Сайт wotpack.ru уважает право пользователей на конфиденциальность. В настоящей политике мы описываем, какие данные мы собираем и как с ними обращаемся.
+                            </p>
+                        </div>
+                        <div class="agreement__items">
+                            <div class="agreement__item policy__box">
+                                <h2 class="agreement__item-title title">
+                                    1. Какие данные мы собираем
+                                </h2>
+                                <p class="agreement__item-text policy__item-text">
+                                    1.1 Комментарии пользователей
+                                </p>
+                                <p class="agreement__item-text policy__text">
+                                    При отправке комментария вы добровольно указываете:
+                                </p>
+                                <ul class="policy__list">
+                                    <li class="policy__item">
+                                        Имя или псевдоним
+                                    </li>
+                                       <li class="policy__item">
+                                        Адрес электронной почты (не публикуется)
+                                    </li>
+                                    <li class="policy__item">
+                                        Содержимое комментария
+                                    </li>
+                                </ul>
+                                <p class="agreement__item-text">
+                                    Эти данные используются исключительно для отображения комментариев на сайте и для возможности обратной связи, если это необходимо.
+                                </p>
+                            </div>
+                            <div class="agreement__item policy__box">
+                                <p class="agreement__item-text policy__item-text policy__item-text--subtitlepadding">
+                                    1.2 Системы аналитики
+                                </p>
+                                <p class="agreement__item-text agreement__item-policy">
+                                    На сайте используются Google Analytics и Яндекс.Метрика для анализа посещаемости.
+                                </p>
+                                <p class="agreement__item-text">
+                                   Мы отключили в этих системах сбор IP-адресов, и они работают в обезличенном режиме. Собираемая информация может включать:
+                                </p>
+                                <ul class="policy__list">
+                                    <li class="policy__item">
+                                        Количество просмотров страниц
+                                    </li>
+                                    <li class="policy__item">
+                                        Источники трафика
+                                    </li>
+                                    <li class="policy__item">
+                                        Поведение пользователей на сайте (в обезличенной форме)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="agreement__item policy__box">
+                                <h2 class="agreement__item-title title">
+                                    2. Cookies
+                                </h2>
+                                <p class="agreement__item-text">
+                                    Сайт может сохранять cookies в браузере пользователя, если вы комментируете статьи. Это делается для удобства, чтобы не вводить данные повторно.
+                                </p>
+                            </div>
+                            <div class="agreement__item policy__box">
+                                <h2 class="agreement__item-title title">
+                                    3. Как мы используем данные
+                                </h2>
+                                <p class="agreement__item-text">
+                                    Собранные данные используются только для:
+                                </p>
+                                <ul class="policy__list">
+                                    <li class="policy__item">
+                                        отображения комментариев;
+                                    </li>
+                                    <li class="policy__item">
+                                        анализа статистики посещаемости в обезличенной форме.
+                                    </li>
+                                </ul>
+                                <p class="agreement__item-text">
+                                    Мы не передаем полученные данные третьим лицам и не используем их в маркетинговых рассылках.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="agreement__descr-box">
+                            <p class="agreement__descr-text">
+                                Поделиться с друзьями
+                            </p>
+                            <ul class="agreement__social-list">
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="vk" src="../images/svgicons/new-vk.svg" alt="vk">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="vk" src="../images/svgicons/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="telegram" src="../images/svgicons/new-telegram.svg" alt="telegram">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="ok" src="../images/svgicons/ok.svg" alt="ok">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="x" src="../images/svgicons/x.svg" alt="x">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="whatsapp" src="../images/svgicons/whatsapp.svg" alt="whatsapp">
+                                    </a>
+                                </li>
+                                <li class="agreement__social-item">
+                                    <a class="agreement__social-link" href="#">
+                                        <img class="reddit" src="../images/svgicons/reddit.svg" alt="reddit">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="agreement__box">
+                        <aside class="agreement__aside">
+                            <div class="agreement__aside-cards">
+                                <div class="agreement__aside-card">
+                                    <img class="agreement__aside-img" src="../images/img/img-1.png" alt="Honkai Star Rail">
+                                    <p class="agreement__aside-text">
+                                        Обновление Honkai Star Rail 3.4: дата выхода, баннеры, персонажи и события
+                                    </p>
+                                </div>
+                                <div class="agreement__aside-card">
+                                    <img class="agreement__aside-img" src="../images/img/img-2.png" alt="Honkai Star Rail">
+                                    <p class="agreement__aside-text">
+                                        Обновление Honkai Star Rail 3.4: дата выхода, баннеры, персонажи и события
+                                    </p>
+                                </div>
+                                <div class="agreement__aside-card">
+                                    <img class="agreement__aside-img" src="../images/img/img-3.png" loading="lazy" alt="Honkai Star Rail">
+                                    <p class="agreement__aside-text">
+                                        Обновление Honkai Star Rail 3.4: дата выхода, баннеры, персонажи и события
+                                    </p>
+                                </div>
+                                <div class="agreement__aside-card">
+                                    <img class="agreement__aside-img" src="../images/img/img-4.png" loading="lazy" alt="Honkai Star Rail">
+                                    <p class="agreement__aside-text">
+                                        Обновление Honkai Star Rail 3.4: дата выхода, баннеры, персонажи и события
+                                    </p>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="advertisers">
+            <div class="container">
+                <ul class="advertisers__list">
+                    <li class="advertisers__item">
+                        <a class="advertisers__item-link" href="#">
+                            Рекламодатели
+                        </a>
+                    </li>
+                    <li class="advertisers__item">
+                        <a class="advertisers__item-link" href="#">
+                            Обратная связь
+                        </a>
+                    </li>
+                    <li class="advertisers__item">
+                        <a class="advertisers__item-link" href="#">
+                            Пользовательское соглашение
+                        </a>
+                    </li>
+                    <li class="advertisers__item">
+                        <a class="advertisers__item-link" href="#">
+                            Политика конфиденциальности
+                        </a>
+                    </li>
+                    <li class="advertisers__item">
+                        <a class="advertisers__item-link" href="#">
+                            Правообладателям
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__colums">
+                    <div class="footer__colum">
+                        <h4 class="footer__colum-title">
+                            Новости
+                        </h4>
+                        <ul class="footer__colum-list">
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Genshin Impact
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Honkai: Star Rail
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Zenless Zone Zero
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__colum">
+                        <h4 class="footer__colum-title">
+                            Билды
+                        </h4>
+                        <ul class="footer__colum-list">
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Genshin Impact
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Honkai: Star Rail
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Zenless Zone Zero
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Wuthering Waves
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Cyberpunk 2077
+                                </a>
+                            </li>
+                                <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Path of Exile 2
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__colum">
+                        <h4 class="footer__colum-title">
+                            Игры
+                        </h4>
+                        <ul class="footer__colum-list">
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Genshin Impact
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Honkai: Star Rail
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    inZOI
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Kingdom Come: Deliverance 2
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Path of Exile 2
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Zenless Zone Zero
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Wuthering Waves
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Baldur’s Gate 3
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Cyberpunk 2077
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Diablo 4
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Atomic Heart
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Мир Танков (WOT)
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Roblox
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Клуб Романтики
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Все игры
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__colum">
+                        <h4 class="footer__colum-title">
+                            Интересное
+                        </h4>
+                        <ul class="footer__colum-list">
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Рейтинги
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Фильмы и сериалы
+                                </a>
+                            </li>
+                            <li class="footer__colum-item">
+                                <a class="footer__colum-link" href="#">
+                                    Аниме
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-left_box">
+                    <div class="footer__bottom-left">
+                        <a class="footer__logo-link" href="#">
+                            <img class="logo" src="../images/svgicons/logo.svg" alt="logo">
+                        </a>
+                        <p class="footer__copy-text">
+                            © 2025 wotpack.ru<br>
+                            Использование любых материалов сайта<br>
+                            без согласования с администрацией запрещено
+                        </p>
+                        <div class="footer__age">
+                            18+
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom-right">
+                    <div class="footer__bottom-right_box">
+                        <div class="footer__age footer__age--mobile">
+                            18+
+                        </div>
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__item-link" href="#">
+                                    <img class="social__item-icon" src="../images/svgicons/vk.svg" alt="vk">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__item-link" href="#">
+                                    <img class="social__item-icon" src="../images/svgicons/telegram.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__item-link" href="#">
+                                    <img class="social__item-icon" src="../images/svgicons/youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul>
+                        <select class="select" name="languages">
+                            <option value="russia">Russian</option>
+                            <option value="english">English</option>
+                            <option value="german">German</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</div>
+<script defer src="../js/night-theme.min.js"></script>
+<script type="module" src="../js/modules/search.min.js"></script>
+<script type="module" src="../js/main.min.js"></script>
+</body>
+</html>
